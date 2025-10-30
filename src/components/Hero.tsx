@@ -16,7 +16,7 @@ export const Hero = () => {
       
       <Navbar />
 
-      <div className="relative z-10 container mx-auto px-6 py-20 animate-fade-up">
+      <div className="relative z-10 container mx-auto px-6 py-32 md:py-40 animate-fade-up">
         <div className="text-center">
           <h1 className="font-bebas text-5xl md:text-7xl lg:text-8xl leading-none mb-6 tracking-tight">
             TREINADOR<br />
