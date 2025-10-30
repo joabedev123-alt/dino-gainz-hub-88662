@@ -50,7 +50,7 @@ export const TransformationGallery = () => {
                   <img 
                     src={item.image} 
                     alt={item.title}
-                    className="w-full h-[500px] object-contain bg-secondary/20 transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               </CarouselItem>
