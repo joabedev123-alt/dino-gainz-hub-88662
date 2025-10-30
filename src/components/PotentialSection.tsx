@@ -23,7 +23,7 @@ export const PotentialSection = () => {
             <img 
               src={andersonChampion} 
               alt="Anderson Silva Campeão" 
-              className="w-full h-[500px] object-contain bg-secondary transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
             />
           </div>
         </div>
