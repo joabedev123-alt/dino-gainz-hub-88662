@@ -8,8 +8,8 @@ export const Hero = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-end justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        className="absolute inset-0 bg-cover bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})`, backgroundPosition: 'center 30%' }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/90"></div>
       </div>
