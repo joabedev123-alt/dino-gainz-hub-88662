@@ -9,7 +9,7 @@ export const AppProtocol = () => {
             <img 
               src={andersonChampion} 
               alt="Anderson Silva - Ganho de Massa e Definição" 
-              className="w-full h-[500px] object-contain bg-secondary transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
             />
           </div>
 
@@ -19,16 +19,7 @@ export const AppProtocol = () => {
             </h2>
             <div className="space-y-6 font-inter text-lg text-muted-foreground leading-relaxed">
               <p>
-                Personal trainer certificado com anos de experiência em transformação corporal e desenvolvimento atlético. 
-                Especializado em treino de força, hipertrofia e condicionamento físico.
-              </p>
-              <p>
-                Minha metodologia combina treino personalizado, nutrição estratégica e acompanhamento constante 
-                para garantir que você alcance seus objetivos de forma sustentável e definitiva.
-              </p>
-              <p>
-                Não é só sobre levantar peso ou seguir dieta. É sobre criar um estilo de vida que te leve 
-                ao seu melhor físico e mental, com resultados reais e duradouros.
+                Sou Anderson Silva, treinador esportivo, natural de Manaus, Amazonas, com mais de 10 anos de experiência na área. Sou atleta há mais de 6 anos, com foco principalmente no fisiculturismo. Minha paixão pela saúde e pelo condicionamento físico me levou a desenvolver técnicas personalizadas de treinamento, combinando minha experiência como atleta e treinador para ajudar meus clientes a alcançarem seus objetivos de forma eficaz e sustentável.
               </p>
             </div>
           </div>
