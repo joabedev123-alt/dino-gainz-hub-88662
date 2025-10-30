@@ -6,17 +6,17 @@ import { Navbar } from "./Navbar";
 
 export const Hero = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-end justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-contain bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/90"></div>
       </div>
       
       <Navbar />
 
-      <div className="relative z-10 container mx-auto px-6 py-32 md:py-40 animate-fade-up">
+      <div className="relative z-10 container mx-auto px-6 py-16 md:py-20 mb-12 animate-fade-up">
         <div className="text-center">
           <h1 className="font-bebas text-5xl md:text-7xl lg:text-8xl leading-none mb-6 tracking-tight">
             TREINADOR<br />
