@@ -21,6 +21,13 @@ export const Navbar = () => {
     }
   };
 
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "5597981010113";
+    const message = "Olá! Gostaria de saber mais sobre os treinos.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 px-6 py-4 md:px-12 transition-all duration-300 ${
@@ -52,7 +59,12 @@ export const Navbar = () => {
           </button>
         </div>
 
-        <Button variant="gold" size="sm" className="text-xs md:text-sm px-3 md:px-4">
+        <Button 
+          variant="gold" 
+          size="sm" 
+          className="text-xs md:text-sm px-3 md:px-4"
+          onClick={handleWhatsAppClick}
+        >
           QUERO SER ALUNO
         </Button>
       </nav>

@@ -3,6 +3,7 @@ import { TransformationGallery } from "@/components/TransformationGallery";
 import { AppProtocol } from "@/components/AppProtocol";
 import { TrainingPillars } from "@/components/TrainingPillars";
 import { PotentialSection } from "@/components/PotentialSection";
+import { CTASection } from "@/components/CTASection";
 import { InformationSection } from "@/components/InformationSection";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
@@ -16,6 +17,7 @@ const Index = () => {
       <AppProtocol />
       <TrainingPillars />
       <PotentialSection />
+      <CTASection />
       <InformationSection />
       <Testimonials />
       <Footer />
