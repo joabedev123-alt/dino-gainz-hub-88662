@@ -34,10 +34,10 @@ export const Hero = () => {
           className="absolute w-full h-full object-contain object-center"
           style={{ 
             objectPosition: 'center 70%',
-            top: '80px',
+            top: '70px',
             left: '0',
             right: '0',
-            height: 'calc(100% - 80px)'
+            height: 'calc(100% - 70px)'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/90"></div>
@@ -45,19 +45,19 @@ export const Hero = () => {
       
       <Navbar />
 
-      <div className="relative z-10 container mx-auto px-6 pb-16 md:pb-20 animate-fade-up">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 pb-12 sm:pb-16 md:pb-20 animate-fade-up">
         <div className="text-center">
-          <h1 className="font-bebas text-3xl md:text-5xl lg:text-6xl leading-none mb-6 tracking-tight">
+          <h1 className="font-bebas text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-none mb-4 sm:mb-6 tracking-tight">
             TREINADOR<br />
             ANDERSON SILVA
           </h1>
-          <p className="font-bebas text-xl md:text-2xl lg:text-3xl text-accent mb-12 tracking-wide">
+          <p className="font-bebas text-lg sm:text-xl md:text-2xl lg:text-3xl text-accent mb-8 sm:mb-12 tracking-wide px-2">
             A GENTE MONTA O PLANO. VOCÊ SÓ PRECISA SEGUIR.
           </p>
           <Button 
             variant="gold" 
             size="default" 
-            className="text-base px-6 py-4 h-auto gap-2"
+            className="text-sm sm:text-base px-4 sm:px-6 py-3 sm:py-4 h-auto gap-2"
             onClick={handleWhatsAppClick}
           >
             COMEÇAR AGORA

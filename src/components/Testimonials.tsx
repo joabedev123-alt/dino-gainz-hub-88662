@@ -20,28 +20,28 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-20 px-6 bg-background">
+    <section id="testimonials" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-background">
       <div className="container mx-auto">
-        <div className="text-center mb-16 animate-fade-up">
-          <h2 className="font-bebas text-4xl md:text-5xl lg:text-6xl tracking-tight mb-4 max-w-4xl mx-auto leading-tight">
+        <div className="text-center mb-8 sm:mb-12 md:mb-16 animate-fade-up">
+          <h2 className="font-bebas text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-tight mb-4 max-w-4xl mx-auto leading-tight px-2">
             MÉTODO TESTADO, RESULTADOS REAIS.<br />
             VEJA O QUE OS ALUNOS TÊM A DIZER.
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-card border border-border rounded-lg p-8 hover:border-accent/50 transition-all animate-fade-up"
+              className="bg-card border border-border rounded-lg p-6 sm:p-8 hover:border-accent/50 transition-all animate-fade-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="flex gap-1 mb-4">
+              <div className="flex gap-1 mb-3 sm:mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                  <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-accent text-accent" />
                 ))}
               </div>
-              <p className="font-inter text-base leading-relaxed mb-6">
+              <p className="font-inter text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
                 "{testimonial.text}"
               </p>
               <div className="flex items-center gap-3">

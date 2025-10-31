@@ -2,12 +2,12 @@ import { Instagram, Facebook, Mail, MapPin, Phone } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="py-12 px-6 bg-black border-t border-primary/30">
+    <footer className="py-8 sm:py-12 px-4 sm:px-6 bg-black border-t border-primary/30">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div>
-            <h3 className="font-bebas text-2xl mb-4 text-accent">CONTATO</h3>
-            <div className="space-y-3 font-inter text-sm text-muted-foreground">
+            <h3 className="font-bebas text-xl sm:text-2xl mb-3 sm:mb-4 text-accent">CONTATO</h3>
+            <div className="space-y-2 sm:space-y-3 font-inter text-xs sm:text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <span>(97)98101-0113</span>
@@ -26,9 +26,9 @@ export const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-bebas text-2xl mb-4 text-accent">LOCALIZAÇÃO</h3>
-            <div className="space-y-3">
-              <div className="flex items-start gap-2 font-inter text-sm text-muted-foreground">
+            <h3 className="font-bebas text-xl sm:text-2xl mb-3 sm:mb-4 text-accent">LOCALIZAÇÃO</h3>
+            <div className="space-y-2 sm:space-y-3">
+              <div className="flex items-start gap-2 font-inter text-xs sm:text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span>Rua Parque dos Franceses, nº 736 — Bairro Chapada</span>
               </div>
@@ -48,7 +48,7 @@ export const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-bebas text-2xl mb-4 text-accent">REDES SOCIAIS</h3>
+            <h3 className="font-bebas text-xl sm:text-2xl mb-3 sm:mb-4 text-accent">REDES SOCIAIS</h3>
             <div className="flex gap-4">
               <a 
                 href="https://www.instagram.com/andersonnsilvatreinador?igsh=MTd3YzNxMDlmMm83aA%3D%3D&utm_source=qr" 
@@ -70,8 +70,8 @@ export const Footer = () => {
           </div>
         </div>
         
-        <div className="text-center pt-8 border-t border-primary/20">
-          <p className="font-inter text-muted-foreground text-sm">
+        <div className="text-center pt-6 sm:pt-8 border-t border-primary/20">
+          <p className="font-inter text-muted-foreground text-xs sm:text-sm">
             © 2025 Anderson Silva - Personal Trainer. Todos os direitos reservados.
           </p>
         </div>

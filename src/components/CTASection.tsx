@@ -10,7 +10,7 @@ export const CTASection = () => {
   };
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-secondary/50 to-secondary/30">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-b from-secondary/50 to-secondary/30">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center animate-fade-up">
           <div className="max-w-2xl mx-auto">

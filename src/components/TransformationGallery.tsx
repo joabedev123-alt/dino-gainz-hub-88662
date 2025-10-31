@@ -33,7 +33,7 @@ export const TransformationGallery = () => {
   }, [api]);
 
   return (
-    <section id="transformations" className="py-20 px-6 bg-background">
+    <section id="transformations" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-background">
       <div className="container mx-auto">
         <Carousel 
           setApi={setApi}
