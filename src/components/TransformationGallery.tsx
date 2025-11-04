@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Star } from "lucide-react";
 import transformation1 from "@/assets/transformation-new-1.png";
 import transformation2 from "@/assets/transformation-new-2.png";
 import transformation3 from "@/assets/transformation-new-3.jpg";
@@ -16,31 +17,31 @@ const transformations = [
     image: transformation1, 
     title: "ANTES E AGORA",
     comment: "Em 3 meses consegui resultados que nunca imaginei! O acompanhamento do Anderson fez toda diferença. Recomendo demais!",
-    clientName: "Carlos Roberto"
+    rating: 5
   },
   { 
     image: transformation2, 
     title: "ANTES E AGORA",
     comment: "Perdi 15kg mantendo massa muscular. O protocolo personalizado funcionou perfeitamente para mim. Muito satisfeito!",
-    clientName: "Fernando Lima"
+    rating: 5
   },
   { 
     image: transformation3, 
     title: "ANTES E AGORA",
     comment: "Melhor investimento que já fiz na minha saúde. Os resultados apareceram rápido e de forma saudável. Profissional excelente!",
-    clientName: "Marcos Silva"
+    rating: 5
   },
   { 
     image: transformation4, 
     title: "ANTES E AGORA",
     comment: "Não acreditava que seria possível transformar meu corpo dessa forma. Anderson me mostrou que com dedicação tudo é possível!",
-    clientName: "Rafael Santos"
+    rating: 5
   },
   { 
     image: transformation5, 
     title: "ANTES E AGORA",
     comment: "Aprendi a treinar de verdade e a ter disciplina. Resultados que vão além da estética, ganhei qualidade de vida completa!",
-    clientName: "Lucas Oliveira"
+    rating: 5
   },
 ];
 
@@ -84,9 +85,11 @@ export const TransformationGallery = () => {
                       <p className="font-inter text-xs sm:text-sm md:text-base text-white leading-relaxed">
                         "{item.comment}"
                       </p>
-                      <p className="font-bebas text-sm sm:text-base md:text-lg text-accent tracking-wide">
-                        — {item.clientName}
-                      </p>
+                      <div className="flex gap-1">
+                        {[...Array(item.rating || 5)].map((_, i) => (
+                          <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 fill-accent text-accent" />
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
