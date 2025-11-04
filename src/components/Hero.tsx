@@ -6,7 +6,7 @@ import { Navbar } from "./Navbar";
 
 export const Hero = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5597981010113";
+    const phoneNumber = "559784594321";
     const message = "Olá! Gostaria de saber mais sobre os treinos.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
