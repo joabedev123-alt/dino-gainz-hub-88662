@@ -5,6 +5,7 @@ import transformation3 from "@/assets/transformation-new-3.jpg";
 import transformation4 from "@/assets/transformation-new-4.png";
 import transformation5 from "@/assets/transformation-new-5.png";
 import transformation6 from "@/assets/imagem 2/001.png";
+import transformation7 from "@/assets/imagem 2/002.png";
 import {
   Carousel,
   CarouselContent,
@@ -19,6 +20,7 @@ const transformations = [
   { image: transformation4, title: "ANTES E AGORA" },
   { image: transformation5, title: "ANTES E AGORA" },
   { image: transformation6, title: "ANTES E AGORA" },
+  { image: transformation7, title: "ANTES E AGORA" },
 ];
 
 export const TransformationGallery = () => {
