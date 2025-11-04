@@ -34,10 +34,10 @@ export const Hero = () => {
           className="absolute w-full h-full object-contain object-center"
           style={{ 
             objectPosition: 'center 70%',
-            top: '70px',
+            top: '60px',
             left: '0',
             right: '0',
-            height: 'calc(100% - 70px)'
+            height: 'calc(100% - 60px)'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/90"></div>

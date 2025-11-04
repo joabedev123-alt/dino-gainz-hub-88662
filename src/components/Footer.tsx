@@ -32,7 +32,7 @@ export const Footer = () => {
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span>Rua Parque dos Franceses, nº 736 — Bairro Chapada</span>
               </div>
-              <div className="relative w-full h-32 rounded-lg overflow-hidden border border-primary/30">
+              <div className="relative w-full h-40 sm:h-32 rounded-lg overflow-hidden border border-primary/30">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.6!2d-67.8!3d-9.97!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTgnMTIuMCJTIDY3wrA0OCcwMC4wIlc!5e0!3m2!1spt-BR!2sbr!4v1234567890!5m2!1spt-BR!2sbr&q=Rua+Parque+dos+Franceses+736+Chapada+Rio+Branco+Acre"
                   width="100%"

@@ -32,7 +32,7 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 px-6 py-4 md:px-12 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-3 sm:py-4 md:px-12 transition-all duration-300 ${
         scrolled ? "bg-transparent" : "bg-white/95 backdrop-blur-sm shadow-md"
       }`}
     >

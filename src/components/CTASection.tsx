@@ -17,7 +17,7 @@ export const CTASection = () => {
             <Button 
               variant="gold" 
               size="lg" 
-              className="text-base md:text-lg px-12 md:px-16 py-3 md:py-4 h-auto gap-2 font-bebas tracking-wide w-full"
+              className="text-sm sm:text-base md:text-lg px-8 sm:px-12 md:px-16 py-2.5 sm:py-3 md:py-4 h-auto gap-2 font-bebas tracking-wide w-full"
               onClick={handleWhatsAppClick}
             >
               QUERO SER ALUNO

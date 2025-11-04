@@ -43,9 +43,9 @@ export const TransformationGallery = () => {
           }}
           className="w-full"
         >
-          <CarouselContent>
+          <CarouselContent className="-ml-2 md:-ml-4">
             {transformations.map((item, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
                 <div className="group relative overflow-hidden rounded-lg animate-fade-up">
                   <img 
                     src={item.image} 
