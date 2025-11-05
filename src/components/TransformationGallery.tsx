@@ -72,22 +72,22 @@ export const TransformationGallery = () => {
           <CarouselContent className="-ml-2 md:-ml-4">
             {transformations.map((item, index) => (
               <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-                <div className="group relative overflow-hidden rounded-lg animate-fade-up bg-card border border-border hover:border-accent/50 transition-all duration-300">
-                  <div className="relative">
+                <div className="group relative overflow-hidden rounded-lg animate-fade-up bg-card border border-border hover:border-accent/50 transition-all duration-300 h-full flex flex-col">
+                  <div className="relative flex-shrink-0">
                     <img 
                       src={item.image} 
                       alt={item.title}
-                      className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-auto max-h-[300px] sm:max-h-[350px] md:max-h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
-                  <div className="p-4 sm:p-5 md:p-6 bg-gradient-to-t from-black/90 via-black/70 to-transparent absolute bottom-0 left-0 right-0">
-                    <div className="space-y-2 sm:space-y-3">
-                      <p className="font-inter text-xs sm:text-sm md:text-base text-white leading-relaxed">
+                  <div className="p-3 sm:p-4 md:p-5 lg:p-6 bg-gradient-to-t from-black/95 via-black/80 to-black/60 min-h-[100px] sm:min-h-[110px] md:min-h-[120px] flex flex-col justify-end">
+                    <div className="space-y-2 sm:space-y-2.5 md:space-y-3">
+                      <p className="font-inter text-[11px] xs:text-xs sm:text-sm md:text-base text-white leading-relaxed line-clamp-3 sm:line-clamp-none">
                         "{item.comment}"
                       </p>
-                      <div className="flex gap-1">
+                      <div className="flex gap-0.5 sm:gap-1">
                         {[...Array(item.rating || 5)].map((_, i) => (
-                          <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 fill-accent text-accent" />
+                          <Star key={i} className="w-2.5 h-2.5 xs:w-3 xs:h-3 sm:w-3.5 sm:h-3.5 md:w-4 md:h-4 fill-accent text-accent flex-shrink-0" />
                         ))}
                       </div>
                     </div>

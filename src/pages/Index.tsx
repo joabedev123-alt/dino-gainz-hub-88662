@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero";
 import { TransformationGallery } from "@/components/TransformationGallery";
 import { AppProtocol } from "@/components/AppProtocol";
 import { TrainingPillars } from "@/components/TrainingPillars";
+import { ProblemSection } from "@/components/ProblemSection";
 import { PotentialSection } from "@/components/PotentialSection";
 import { CTASection } from "@/components/CTASection";
 import { Testimonials } from "@/components/Testimonials";
@@ -15,6 +16,7 @@ const Index = () => {
       <TransformationGallery />
       <AppProtocol />
       <TrainingPillars />
+      <ProblemSection />
       <PotentialSection />
       <CTASection />
       <Testimonials />
