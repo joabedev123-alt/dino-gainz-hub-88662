@@ -22,7 +22,7 @@ const transformations = [
   { 
     image: transformation2, 
     title: "ANTES E AGORA",
-    comment: "Perdi 15kg mantendo massa muscular. O protocolo personalizado funcionou perfeitamente para mim. Muito satisfeito!",
+    comment: "Evolução real! O protocolo personalizado me ajudou a mudar corpo e mente. Hoje treino com prazer e vejo resultado de verdade",
     rating: 5
   },
   { 
