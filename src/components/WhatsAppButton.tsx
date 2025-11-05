@@ -3,7 +3,7 @@ import whatsappIcon from "@/assets/whatsapp-icon.webp";
 export const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     const phoneNumber = "559784594321";
-    const message = "Olá! Gostaria de saber mais sobre os treinos.";
+    const message = "Quero garantir minha vaga na consultoria. Pode me mandar o questionário pra responder.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
